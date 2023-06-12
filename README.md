@@ -7,10 +7,14 @@ The input data needed to recreate this demonstration is stored in the [data](dat
 ## Summary Plots
 Quick-look plots analyzing the data are stored in the [plots](plots/) directory.
 
-## Results
->
-| BA | Load Time Series | Solar Time Series | Wind Time Series |
-| :-: | :-: | :-: | :-: |
-| AZPS  | <img src="plots/2017/AZPS_Load.png" width="50">  | <img src="plots/2017/AZPS_Solar.png" width="50">  | <img src="plots/2017/AZPS_Wind.png" width="50">  |
+## Key Results
+* The medium-range forecasts of wind power are generally good out to 5 days and then diverge from observations. This is 
+consistent with the general accuracy of weather forecasts
+* The load forecast is generally more accurate than the wind power forecast
+
+<p align="center">
+  <img src="plots/Wind_and_Load_Time_Series.png" />
+</p>
+
 
 
